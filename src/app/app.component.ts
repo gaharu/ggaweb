@@ -19,7 +19,7 @@ export class AppComponent {
     this.titleSrv.setTitle(this.title);
     let data = new Object({
       title: `Under Construction`,
-      content:`Oops... We\'re working hard to deliver better content. <br/> Sorry for the inconvenience caused.`,
+      content:`Oops... We\'re working hard to deliver better content. <br/><br/> Thanks for your patience.`,
       close:'Close'
     });
     console.log(data);

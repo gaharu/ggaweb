@@ -39,7 +39,7 @@
     left: 0px;
     z-index: 0;
     content: '';
-    background: transparent url('/app/res/images/pattern.png') repeat top left;
+    background: transparent url('./res/images/pattern.png') repeat top left;
 }
 
 .fb {

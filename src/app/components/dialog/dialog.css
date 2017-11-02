@@ -1,0 +1,5 @@
+.background{
+    position: relative;
+    background: url('./logo.png') no-repeat right center;
+    background-size: 200px;
+}

@@ -1,7 +1,13 @@
-<h2 mat-dialog-title>{{data.title}}</h2>
+<div class="background">
+    <div style="background: rgba(255,255,255,0.7)">
+        <h2 mat-dialog-title>{{data.title}}</h2>
+        
+        <mat-dialog-content [innerHTML]="data.content"></mat-dialog-content>
+        
+        <mat-dialog-actions>
+            <button mat-button mat-dialog-close>{{data.close}}</button>
+        </mat-dialog-actions>
+        
+    </div>
 
-<mat-dialog-content [innerHTML]="data.content"></mat-dialog-content>
-
-<mat-dialog-actions>
-    <button mat-button mat-dialog-close>{{data.close}}</button>
-</mat-dialog-actions>
+</div>
