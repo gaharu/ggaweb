@@ -50,7 +50,6 @@
 }
 
 @media (max-width : 1080px) {
-  .fb {display: none;}
   .video-bg {display:none}
 }
 

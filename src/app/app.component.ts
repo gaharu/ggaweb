@@ -22,7 +22,6 @@ export class AppComponent {
       content:`Oops... We\'re working hard to deliver better content. <br/><br/> Thanks for your patience.`,
       close:'Close'
     });
-    console.log(data);
     this.dialog.open(components.DialogComponent,
       {width:'500px',data});
   }
